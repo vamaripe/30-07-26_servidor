@@ -91,19 +91,26 @@ y ya podemos empezar a escribir los comandos en nuestra consola.
 ![alt text](image26.png)
 
 -------------------
+# Comandos
+
 ```
-`cat /etc/os-release`   
+cat /etc/os-release  
 ```
+sirve para identificar qué distribución y versión de Linux está ejecutando el sistema.
+
 ![alt text](image27.png)
 
 ```
-`uname -a`        
+uname -a       
 ```
+sirve para conocer los detalles del kernel y la arquitectura del sistema operativo.
+
 ![alt text](image28.png)
 
 ```
- `uname -r`        
+uname -r        
 ```
+sirve para identificar la versión del kernel instalada y en uso actualmente.
 
 ![alt text](image29.png)
 
