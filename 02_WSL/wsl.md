@@ -1,3 +1,61 @@
+# Installar WSL
+
+Instalar WSL
+
+![alt text](image-60.png)
+
+Reiniciar el equipo, debemos crear un usuario.
+
+Actualizar el sistema
+```
+sudo apt update
+sudo apt upgrade -y
+```
+Instalar  herramientas útiles
+```
+sudo apt install tree htop net-tools lshw dmidecode curl -y
+```
+
+Habilitar systemd
+
+```
+sudo nano /etc/wsl.conf
+```
+Agregar 
+```
+[boot]
+systemd=true
+```
+Verificar estado
+```
+systemctl status
+```
+
+Instalar el servidor SSH
+
+```
+sudo apt install openssh-server -y
+```
+Iniciar el servicio
+```
+sudo systemctl start ssh
+```
+Verificar estado
+
+```
+sudo systemctl status ssh
+```
+Verificar el servidor, comprobar la dirección ip 
+
+```
+hostname -I
+```
+
+Verificar puerto
+```
+ss -tulnp
+```
+
 # Comandos básicos de Ubuntu en WSL
 
 ## Mostrar la información del sistema operativo
@@ -280,7 +338,7 @@ systemctl status ssh
 
 Muestra si el servicio SSH está activo y su estado.
 
-![alt text](image-24.png)
+![alt text](image-61.png)
 
 > Requiere que **systemd** esté habilitado.
 
