@@ -121,6 +121,7 @@ Puedes comprobar que el contenedor sigue funcionando:
 ```bash
 cat /etc/os-release
 ```
+![alt text](image-20.png)
 
 Muestra la distribución de Linux instalada, su versión y otros datos del sistema operativo.
 
@@ -131,6 +132,7 @@ Muestra la distribución de Linux instalada, su versión y otros datos del siste
 ```bash
 uname -a
 ```
+![alt text](image-21.png)
 
 Muestra información completa del kernel, arquitectura, nombre del equipo y sistema operativo.
 
@@ -141,6 +143,7 @@ Muestra información completa del kernel, arquitectura, nombre del equipo y sist
 ```bash
 uname -r
 ```
+![alt text](image-22.png)
 
 Muestra únicamente la versión del kernel de Linux.
 
@@ -152,6 +155,8 @@ Muestra únicamente la versión del kernel de Linux.
 uname -m
 ```
 
+![alt text](image-23.png)
+
 Indica la arquitectura del sistema, por ejemplo `x86_64`.
 
 ---
@@ -161,6 +166,8 @@ Indica la arquitectura del sistema, por ejemplo `x86_64`.
 ```bash
 hostname
 ```
+![alt text](image-24.png)
+
 
 Muestra el nombre del host o computadora.
 
@@ -171,6 +178,7 @@ Muestra el nombre del host o computadora.
 ```bash
 hostnamectl
 ```
+![alt text](image-25.png)
 
 Presenta información del sistema como hostname, sistema operativo, kernel y arquitectura.
 
@@ -181,6 +189,7 @@ Presenta información del sistema como hostname, sistema operativo, kernel y arq
 ```bash
 whoami
 ```
+![alt text](image-26.png)
 
 Indica el nombre del usuario que ha iniciado sesión.
 
@@ -191,6 +200,7 @@ Indica el nombre del usuario que ha iniciado sesión.
 ```bash
 id
 ```
+![alt text](image-27.png)
 
 Muestra el UID, GID y los grupos a los que pertenece el usuario.
 
@@ -201,6 +211,7 @@ Muestra el UID, GID y los grupos a los que pertenece el usuario.
 ```bash
 pwd
 ```
+![alt text](image-28.png)
 
 Indica la ruta completa del directorio en el que se encuentra el usuario.
 
@@ -211,6 +222,7 @@ Indica la ruta completa del directorio en el que se encuentra el usuario.
 ```bash
 ls
 ```
+![alt text](image-29.png)
 
 Muestra los archivos y carpetas del directorio actual.
 
@@ -221,6 +233,7 @@ Muestra los archivos y carpetas del directorio actual.
 ```bash
 ls -la
 ```
+![alt text](image-30.png)
 
 Muestra todos los archivos, incluidos los ocultos, junto con sus permisos, propietario y tamaño.
 
@@ -231,6 +244,7 @@ Muestra todos los archivos, incluidos los ocultos, junto con sus permisos, propi
 ```bash
 tree
 ```
+![alt text](image-43.png)
 
 Muestra la estructura de carpetas en forma de árbol.
 
@@ -243,6 +257,7 @@ Muestra la estructura de carpetas en forma de árbol.
 ```bash
 date
 ```
+![alt text](image-31.png)
 
 Muestra la fecha y hora actual del sistema.
 
@@ -253,6 +268,7 @@ Muestra la fecha y hora actual del sistema.
 ```bash
 uptime
 ```
+![alt text](image-36.png)
 
 Indica cuánto tiempo lleva encendido el sistema y la carga del procesador.
 
@@ -263,6 +279,7 @@ Indica cuánto tiempo lleva encendido el sistema y la carga del procesador.
 ```bash
 free -h
 ```
+![alt text](image-33.png)
 
 Muestra el uso de memoria RAM y swap en formato legible.
 
@@ -273,6 +290,7 @@ Muestra el uso de memoria RAM y swap en formato legible.
 ```bash
 lscpu
 ```
+![alt text](image-34.png)
 
 Presenta información detallada de la CPU.
 
@@ -283,6 +301,7 @@ Presenta información detallada de la CPU.
 ```bash
 lsblk
 ```
+![alt text](image-35.png)
 
 Lista los discos, particiones y dispositivos de almacenamiento.
 
@@ -293,6 +312,7 @@ Lista los discos, particiones y dispositivos de almacenamiento.
 ```bash
 df -h
 ```
+![alt text](image-37.png)
 
 Muestra el espacio usado y disponible en los sistemas de archivos.
 
@@ -303,6 +323,7 @@ Muestra el espacio usado y disponible en los sistemas de archivos.
 ```bash
 mount
 ```
+![alt text](image-38.png)
 
 Lista todos los sistemas de archivos montados.
 
@@ -313,6 +334,7 @@ Lista todos los sistemas de archivos montados.
 ```bash
 ps aux
 ```
+![alt text](image-39.png)
 
 Muestra todos los procesos activos del sistema.
 
@@ -323,6 +345,7 @@ Muestra todos los procesos activos del sistema.
 ```bash
 top
 ```
+![alt text](image-40.png)
 
 Muestra en tiempo real el consumo de CPU, memoria y procesos.
 
@@ -333,6 +356,7 @@ Muestra en tiempo real el consumo de CPU, memoria y procesos.
 ```bash
 htop
 ```
+![alt text](image-41.png)
 
 Versión interactiva de `top` con una interfaz más amigable.
 
@@ -345,6 +369,7 @@ Versión interactiva de `top` con una interfaz más amigable.
 ```bash
 systemctl status ssh
 ```
+![alt text](image-42.png)
 
 Muestra si el servicio SSH está activo y su estado.
 
@@ -357,6 +382,7 @@ Muestra si el servicio SSH está activo y su estado.
 ```bash
 systemctl list-units --type=service
 ```
+![alt text](image-44.png)
 
 Lista todos los servicios administrados por `systemd`.
 
@@ -369,7 +395,7 @@ Lista todos los servicios administrados por `systemd`.
 ```bash
 ip addr
 ```
-
+![alt text](image-45.png)
 Muestra las interfaces de red y sus direcciones IP.
 
 ---
@@ -379,6 +405,7 @@ Muestra las interfaces de red y sus direcciones IP.
 ```bash
 ip route
 ```
+![alt text](image-46.png)
 
 Muestra la tabla de enrutamiento del sistema.
 
@@ -389,6 +416,7 @@ Muestra la tabla de enrutamiento del sistema.
 ```bash
 hostname -I
 ```
+![alt text](image-47.png)
 
 Muestra las direcciones IP asignadas al equipo.
 
@@ -399,6 +427,7 @@ Muestra las direcciones IP asignadas al equipo.
 ```bash
 ping 8.8.8.8
 ```
+![alt text](image-48.png)
 
 Comprueba la conectividad enviando paquetes al servidor DNS de Google.
 
@@ -409,6 +438,7 @@ Comprueba la conectividad enviando paquetes al servidor DNS de Google.
 ```bash
 ping google.com
 ```
+![alt text](image-49.png)
 
 Comprueba tanto la conexión a Internet como la resolución de nombres DNS.
 
@@ -419,6 +449,7 @@ Comprueba tanto la conexión a Internet como la resolución de nombres DNS.
 ```bash
 ss -tulnp
 ```
+![alt text](image-50.png)
 
 Lista los puertos TCP y UDP abiertos junto con los procesos asociados.
 
@@ -429,6 +460,7 @@ Lista los puertos TCP y UDP abiertos junto con los procesos asociados.
 ```bash
 netstat -tulnp
 ```
+![alt text](image-51.png)
 
 Muestra los puertos abiertos y conexiones activas.
 
@@ -441,6 +473,7 @@ Muestra los puertos abiertos y conexiones activas.
 ```bash
 curl ifconfig.me
 ```
+![alt text](image-52.png)
 
 Obtiene la dirección IP pública del equipo desde Internet.
 
@@ -451,6 +484,7 @@ Obtiene la dirección IP pública del equipo desde Internet.
 ```bash
 env
 ```
+![alt text](image-53.png)
 
 Muestra todas las variables de entorno disponibles.
 
@@ -461,6 +495,7 @@ Muestra todas las variables de entorno disponibles.
 ```bash
 history
 ```
+![alt text](image-54.png)
 
 Muestra el historial de comandos ejecutados por el usuario.
 
@@ -481,6 +516,7 @@ Crea una carpeta llamada `practica`.
 ```bash
 cd practica
 ```
+![alt text](image-55.png)
 
 Ingresa al directorio llamado `practica`.
 
@@ -491,6 +527,7 @@ Ingresa al directorio llamado `practica`.
 ```bash
 touch archivo.txt
 ```
+![alt text](image-56.png)
 
 Crea un archivo vacío llamado `archivo.txt`.
 
@@ -561,6 +598,7 @@ Elimina el directorio si no contiene archivos.
 ```bash
 sudo apt update
 ```
+![alt text](image-57.png)
 
 Actualiza la lista de paquetes disponibles en los repositorios.
 
@@ -571,6 +609,7 @@ Actualiza la lista de paquetes disponibles en los repositorios.
 ```bash
 sudo apt upgrade
 ```
+![alt text](image-58.png)
 
 Instala las versiones más recientes de los paquetes instalados.
 
@@ -581,6 +620,7 @@ Instala las versiones más recientes de los paquetes instalados.
 ```bash
 sudo apt install net-tools
 ```
+![alt text](image-59.png)
 
 Instala herramientas clásicas de red como `netstat`.
 
@@ -591,6 +631,7 @@ Instala herramientas clásicas de red como `netstat`.
 ```bash
 sudo apt install htop
 ```
+![alt text](image-60.png)
 
 Instala el monitor de procesos `htop`.
 
@@ -601,6 +642,7 @@ Instala el monitor de procesos `htop`.
 ```bash
 sudo apt autoremove
 ```
+![alt text](image-61.png)
 
 Elimina paquetes que ya no son utilizados por el sistema.
 
