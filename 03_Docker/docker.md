@@ -506,6 +506,7 @@ Muestra el historial de comandos ejecutados por el usuario.
 ```bash
 mkdir practica
 ```
+![alt text](image-62.png)
 
 Crea una carpeta llamada `practica`.
 
@@ -653,6 +654,7 @@ Elimina paquetes que ya no son utilizados por el sistema.
 ```bash
 sudo reboot
 ```
+![alt text](image-63.png)
 
 Reinicia el sistema operativo.
 
@@ -664,57 +666,10 @@ Reinicia el sistema operativo.
 sudo shutdown now
 ```
 
+![alt text](image-64.png)
 Apaga inmediatamente el sistema.
 
 ---
-
-## Mostrar la versión del sistema
-
-```bash
-cat /proc/version
-```
-
-Muestra información sobre el kernel y el compilador utilizado.
-
----
-
-## Mostrar información del proceso inicial
-
-```bash
-cat /proc/1/cgroup
-```
-
-Muestra los grupos de control (cgroups) del proceso con PID 1.
-
----
-
-## Detectar el entorno de virtualización
-
-```bash
-systemd-detect-virt
-```
-
-Indica si el sistema se ejecuta en una máquina virtual o sobre otra tecnología de virtualización.
-
----
-
-## Mostrar el modelo del sistema
-
-```bash
-sudo dmidecode -s system-product-name
-```
-
-Muestra el nombre o modelo del equipo o máquina virtual.
-
----
-
-## Mostrar el hardware del sistema
-
-```bash
-sudo lshw -short
-```
-
-Presenta un resumen del hardware instalado.
 
 ---
 
@@ -723,6 +678,7 @@ Presenta un resumen del hardware instalado.
 ```bash
 docker ps
 ```
+![alt text](image-65.png)
 
 Muestra los contenedores Docker que se encuentran en ejecución.
 
@@ -733,6 +689,7 @@ Muestra los contenedores Docker que se encuentran en ejecución.
 ```bash
 docker ps -a
 ```
+![alt text](image-66.png)
 
 Muestra todos los contenedores, incluidos los detenidos.
 
@@ -743,7 +700,7 @@ Muestra todos los contenedores, incluidos los detenidos.
 ```bash
 docker images
 ```
-
+![alt text](image-67.png)
 Muestra las imágenes almacenadas en el host Docker.
 
 ---
@@ -753,6 +710,7 @@ Muestra las imágenes almacenadas en el host Docker.
 ```bash
 docker volume ls
 ```
+![alt text](image-68.png)
 
 Muestra los volúmenes creados en Docker.
 
@@ -763,6 +721,7 @@ Muestra los volúmenes creados en Docker.
 ```bash
 docker network ls
 ```
+![alt text](image-69.png)
 
 Muestra las redes disponibles en Docker.
 
@@ -773,6 +732,7 @@ Muestra las redes disponibles en Docker.
 ```bash
 docker exec -it <contenedor> bash
 ```
+![alt text](image-72.png)
 
 Abre una terminal interactiva dentro del contenedor especificado.
 
@@ -783,6 +743,7 @@ Abre una terminal interactiva dentro del contenedor especificado.
 ```bash
 docker inspect <contenedor>
 ```
+![alt text](image-73.png)
 
 Muestra información detallada del contenedor en formato JSON.
 
@@ -803,6 +764,7 @@ Muestra los registros generados por el contenedor.
 ```bash
 docker stats
 ```
+![alt text](image-70.png)
 
 Muestra el uso de CPU, memoria y red de los contenedores en tiempo real.
 
@@ -813,13 +775,7 @@ Muestra el uso de CPU, memoria y red de los contenedores en tiempo real.
 ```bash
 docker info
 ```
+![alt text](image-71.png)
 
 Presenta información general sobre Docker, como almacenamiento, redes y número de contenedores e imágenes.
 
----
-
-## Buscar información de virtualización
-
-```bash
-dmesg | grep -i virtual
-```

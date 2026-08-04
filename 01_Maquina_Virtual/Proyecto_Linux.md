@@ -488,11 +488,6 @@ Ingresa al directorio llamado `practica`.
 
 ---
 
-## Crear un archivo vacío
-
-```bash
-touch archivo.txt
-```
 
 
 Crea un archivo vacío llamado `archivo.txt`.
@@ -580,26 +575,6 @@ sudo apt upgrade
 ![alt text](image-1.png)
 
 Instala las versiones más recientes de los paquetes instalados.
-
----
-
-## Instalar Net Tools
-
-```bash
-sudo apt install net-tools
-```
-
-Instala herramientas clásicas de red como `netstat`.
-
----
-
-## Instalar htop
-
-```bash
-sudo apt install htop
-```
-
-Instala el monitor de procesos `htop`.
 
 ---
 
