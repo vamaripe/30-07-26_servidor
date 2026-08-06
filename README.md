@@ -15,7 +15,6 @@ Adquirir conocimientos básicos sobre el uso de Ubuntu Server mediante diferente
 
 ## Descripción del entorno de trabajo 
 ## Comparación de entornos
-# Comparación entre VirtualBox (Ubuntu), WSL y Docker
 
 # Comparación entre VirtualBox (Ubuntu), WSL y Docker
 
